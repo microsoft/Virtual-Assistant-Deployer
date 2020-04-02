@@ -6,8 +6,8 @@ Once completed, you will have a Virtual Assistant deployed into Azure as well as
 
 ## Deploying your Virtual Assistant
 There are two options to quickly getting your Virtual Assistant up and running.
-* [Install with Visual Studio Online](docs/visualstudioonline.md) - This is the easiest and simplest and will all happen online. The only thing you need is an Azure Subscription.
-* [Install with Visual Studio Code locally](docs/visualstudiocode.md) - This option uses your locally installed VS Code and Docker to do the work.
+* [Deploy with Visual Studio Online](docs/visualstudioonline.md) - This is the easiest and simplest and will all happen online. The only thing you need is an Azure Subscription.
+* [Deploy with Visual Studio Code locally](docs/visualstudiocode.md) - This option uses your locally installed VS Code and Docker to do the work.
 
 ## How to talk to your assistant
 After you have deployed the Virtual Assistant, you can test out!
