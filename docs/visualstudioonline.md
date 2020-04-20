@@ -18,7 +18,7 @@ This document will walk you through how to deploy a Virtual Assistant only using
 
 4. A "Create Environment" blade will appear at the right of the screen.
     * Pick a Environment Name
-    * In the "Git Repository" field, copy the URL of the VADeployer repo (https://github.com/negativeeddy/VADeployer)
+    * In the "Git Repository" field, copy the URL of the VADeployer repo (https://github.com/microsoft/Virtual-Assistant-Deployer)
     * For "Instance Type" the "Standard (Linux): 4 cores, 8 GB RAM" Sku will work just fine. 
     * Choose the 30 Minutes idle time (The deployment process takes ~15 minutes) 
     * You don't need to change the "Dotfiles"
