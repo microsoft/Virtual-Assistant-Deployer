@@ -16,7 +16,7 @@ This document will walk you through how to deploy a Virtual Assistant only using
 
 ### Create the environment
 
-1.	Clone https://github.com/negativeeddy/VADeployer
+1.	Clone https://github.com/microsoft/Virtual-Assistant-Deployer
 2.	Open the cloned folder in Visual Studio Code 
 3.	Click "Reopen in Container" when the below pop up appears in the bottom right corner of the screen. This step could take a couple of minutes. The output window at the bottom of the screen will notify you when everything is complete. 
    
