@@ -9,15 +9,15 @@ This document will walk you through how to deploy a Virtual Assistant only using
 
 ### Create the environment
 
-1. Go to [Visual Studio Online](https://online.visualstudio.com/login) and log in using your azure credentials. 
-2. If you don't already have a Visual Studio Online plan, click the drop down at the top of the screen and select "Create new plan". Fill out the "Create a Billing Plan" blade that appears at the right of the screen. 
-3. Once you have a plan, click the "Create environment" button at the center of the screen. (Note: if you already have VSO environments, this button will be located at the top right of the screen.)
+1. Go to [Visual Studio Codespaces](https://online.visualstudio.com/login) and log in using your azure credentials. 
+2. If you don't already have a Visual Studio Online plan, click the drop down at the top of the screen and select "Create codespace". Fill out the "Create a Billing Plan" blade that appears at the right of the screen. 
+3. Once you have a plan, click the "Create codespace" button at the center of the screen. (Note: if you already have VSO codespaces, this button will be located at the top right of the screen.)
 
 ![Button](./CreateEnvironmentButtonVSO.PNG)
 
 
-4. A "Create Environment" blade will appear at the right of the screen.
-    * Pick a Environment Name
+4. A "Create Codespace" blade will appear at the right of the screen.
+    * Pick a Codespace Name
     * In the "Git Repository" field, copy the URL of the VADeployer repo (https://github.com/microsoft/Virtual-Assistant-Deployer)
     * For "Instance Type" the "Standard (Linux): 4 cores, 8 GB RAM" Sku will work just fine. 
     * Choose the 30 Minutes idle time (The deployment process takes ~15 minutes) 
