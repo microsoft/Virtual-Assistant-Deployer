@@ -67,4 +67,4 @@ This document will walk you through how to deploy a Virtual Assistant only using
 6. The terminal will say "Deployment complete." when everything is deployed. 
  
 ## Testing it out
-See the *How to talk to your assistant* section in the [README](../readme.md)
+See the *How to talk to your assistant* section in the [README](https://github.com/microsoft/Virtual-Assistant-Deployer/tree/872d50adb57bafd4c036aa94c5e1d4f4d9c3174c#how-to-talk-to-your-assistant)
