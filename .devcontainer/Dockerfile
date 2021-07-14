@@ -20,11 +20,11 @@ RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
 
 # install PowerShell
 RUN echo INSTALL POWERSHELL \
-&& dotnet tool install --global PowerShell 
+&& dotnet tool install --global PowerShell --version 7.0.6
 
 # install NODE LTS
 RUN echo INSTALL NODE \
-&& curl -sL https://deb.nodesource.com/setup_10.x | bash - \
+&& curl -sL https://deb.nodesource.com/setup_14.x | bash - \
 && apt-get install -y nodejs
 
 RUN echo INSTALL LUISGEN \
@@ -42,9 +42,9 @@ RUN echo INSTALL DOTNET RUNTIME 2.1 \
 && apt-get install -y dotnet-runtime-2.1
 
 # # install bot tools
-RUN npm i -g @microsoft/botframework-cli
+RUN npm i -g --unsafe-perm @microsoft/botframework-cli
 RUN npm i -g luis-apis
 
 # install dispatch locally because of issue installing dotnet globally
 RUN cd / \
-&& npm install botdispatch 
+&& npm install botdispatch
